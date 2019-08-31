@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "This Area is Password Protected"
-AuthUserFile https://github.com/BIMfabrik/geslos/blob/master/100/usecase/.htpasswd
+AuthUserFile https://bimfabrik.github.io/usecase/.htpasswd
 Require valid-user
