@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Platforms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.css">
+	<link rel="stylesheet" href="/css/dms.css">
+	
+  </head>
+  <body>
+  
+<div style="display:flex;  justify-content:flex-start;  align-items:stretch;  flex-wrap:nowrap; padding:10px;">
+  <div style="flex-grow:1;  flex-basis:100%;float:left;">
+    <div><h1>BIM Platforms</h1>
+    </div>
+  </div>
+  <div style="flex-grow:1;  flex-basis:100%;">
+    <img  style="height:75px; float:right;" src="https://filedn.com/lRoA3WDmn4KBdjoar1IOOOQ/CDN/_graphic/BIMfab%20LOGO.png"/>
+  </div>
+</div>
+<div style="display:flex;  justify-content:flex-start;  align-items:stretch;  flex-wrap:nowrap; padding:10px;">
+<p>
+version 0.68 (die Seite nicht neu laden!)
+</p>
+</div>
+
+
+   <table id="table"
+data-toggle="table"
+data-click-to-select="true"
+data-sortable="true"
+data-search="true"
+data-group-by="true"
+  data-group-by-field="name"
+  data-cookie="true"
+  data-cookie-id-table="platformCookID"
+  data-show-refresh="false"
+  data-show-toggle="true"
+  data-show-fullscreen="true"
+  data-show-columns="true"
+  data-detail-view="true"
+    data-detail-formatter="detailFormatter"
+  data-show-export="true"
+  data-click-to-select="true"
+  data-minimum-count-columns="2"
+  data-show-pagination-switch="true"
+  data-pagination="true"
+  data-id-field="ID"
+  data-page-list="[10, 25, 50, 100, all]"
+  data-show-footer="true"
+data-show-print="true"
+  data-locale="de-DE"
+    data-url="/platform.json"
+     data-cache="true"
+	 data-filter-control="true"
+	data-maintain-meta-data="true"
+  data-show-search-clear-button="true"
+    class="table table-striped table-condensed table-hover"
+  >
+
+
+  <thead>
+    <tr>
+	<th data-field="state" data-checkbox="true" data-sortable="true">Status</th>
+    <th data-field="Name" data-filter-control="Input">Name</th>
+	<th data-field="Online" data-filter-control="select">Online</th>	  
+	  <th data-field="VRAR" data-filter-control="select">VR/AR</th>	  
+	  <th data-field="FM" data-filter-control="select">FM</th>	  
+	  <th data-field="Import" data-filter-control="select">Import</th>	  
+	  <th data-field="Kolaboration" data-filter-control="select">Kolaboration</th>	  
+	  <th data-field="Ausschreibung" data-filter-control="select">Ausschreibung</th>	  
+      
+    </tr>
+  </thead>
+</table>
+  
+  
+<div style=" padding:10px;  display:block;  font-family:Arial, Helvetica, sans-serif;  font-size:9px;  text-align:center;">
+      <span><b>BIM</b>fabrik GmbH | Michael-Maggi-Str. 18 | CH-8046 Zürich | 
+	  <a href="https://bimfabrik.ch/" target="_blank">www.bimfabrik.ch</a> | +41 (0) 44 552 64 70 | <a href="mailto:info@bimfabrik.ch?Subject=Kontakt Usecases" target="_top">info@bimfabrik.ch</a></span>
+	  </div>
+
+
+<script>
+  $(function() {
+    $('#table').bootstrapTable()
+  })
+  
+
+ function detailFormatter(index, row) {
+    var html = []
+    $.each(row, function (key, value) {
+      html.push('<p><b>' + key + ':</b> ' + value + '</p>')
+    })
+    return html.join('')
+  }  
+</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.15.4/dist/extensions/export/bootstrap-table-export.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.15.4/dist/extensions/print/bootstrap-table-print.js"></script>
+	<script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+	<script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF/jspdf.min.js"></script>
+	<script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.15.4/dist/extensions/print/bootstrap-table-print.js"></script>	
+	<script src="https://unpkg.com/bootstrap-table@1.15.4/dist/extensions/filter-control/bootstrap-table-filter-control.js"></script>
+	
+  </body>
+</html> 	
