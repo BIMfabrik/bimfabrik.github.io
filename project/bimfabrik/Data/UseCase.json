@@ -1,0 +1,1145 @@
+[
+	{
+		"Name": "BIM-Pilotprojekt",
+		"Code": "UC101",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recQSQpIT8m32dGdA"
+	},
+	{
+		"Name": "Kollisionsprüfung",
+		"Code": "UC112",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "rec9tWBnCnj87UBdW"
+	},
+	{
+		"Name": "Planerstellung ab Modell",
+		"Code": "UC103",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recjqm0V0wVY9lfwT"
+	},
+	{
+		"Name": "Aussparungsplanung",
+		"Code": "UC106",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "Aussparungsworkflow mit «provision for void»",
+		"ID": "reclztTAxzBgkQxZg"
+	},
+	{
+		"Name": "Modellbasierte Ausschreibung",
+		"Code": "UC110",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "",
+		"ID": "recoGne3UumJYwVxd"
+	},
+	{
+		"Name": "Modellbasierte Mietvertragsmanagement",
+		"Code": "UC111",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recpItS9FAGqnmxGH"
+	},
+	{
+		"Name": "Modellbasierte Schemapläne",
+		"Code": "UC109",
+		"Klient": "Ingenieur",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recr9c7xhZwV2jhQR"
+	},
+	{
+		"Name": "Optimierung von internen Prozessen",
+		"Code": "UC113",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "arbeitsweg",
+		"ID": "recFFctoOdQ4VAuG8"
+	},
+	{
+		"Name": "Datenmanagement Plattform",
+		"Code": "UC114",
+		"Klient": "Hersteller",
+		"Grad": "Medium",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "recCLVPTsjwQweuJw"
+	},
+	{
+		"Name": "BIM-Dokumente (Anforderungen)",
+		"Code": "UC115",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recrKYjMUgHGQyOKa"
+	},
+	{
+		"Name": "Digitalisierung des 2D Plänen (DWG)",
+		"Code": "UC116",
+		"Klient": "Bauherr",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recVNnroRxDK2b8yN"
+	},
+	{
+		"Name": "Modellbasierte Mengenermittlung",
+		"Code": "UC118",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "Aus jedem digitalen Bauwerksmodell ist es möglich eine Mengenermittlung zu erfassen. Diese Mengenlisten werden für verschiedene Zwecke verwendet. (BIM2Info).",
+		"ID": "recIlCS0uxDDjjqmU"
+	},
+	{
+		"Name": "Informationen ergänzen (Info2BIM)",
+		"Code": "UC119",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Info2BIM",
+		"Beschreibung": "",
+		"ID": "recn2Fte8Suc2T2ac"
+	},
+	{
+		"Name": "BIM Unterlagen für die Wettbewerb (Bestandsmodell)",
+		"Code": "UC122",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Medium",
+		"Thema": "Strat. Planung / Vorstudien",
+		"Beschreibung": "Die Wettbewerbsergebnisse, erstellt gemäss korrekten digitalen Unterlagen (z.B. BIM-Anforderungen, BIM-Modell), sind von höchster Qualität.",
+		"ID": "rec6olu8eQLfx6UnC"
+	},
+	{
+		"Name": "Alles rund um die Punktwolke",
+		"Code": "UC121",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Info2BIM",
+		"Beschreibung": "",
+		"ID": "recO1O5oOtJXTNoZ1"
+	},
+	{
+		"Name": "Bewerten der Teilnehmer",
+		"Code": "UC123",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "Bewertung des BIM Modellen im Wettbewerbsverfahren",
+		"ID": "recQ3ai0e0GxnGZPL"
+	},
+	{
+		"Name": "BIM-Modell für Architekturwettbewerbe ",
+		"Code": "UC124",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "Ein Teil unserer Leistungen ist die Erstellung digitaler BIM-Modelle für den Architekturwettbewerb gemäss dem Wettbewerbsprogramm und Ihrem Entwurf.",
+		"ID": "recSEBPEDFyhGos0P"
+	},
+	{
+		"Name": "Erweiterung der BIM-Kompetenz",
+		"Code": "UC135",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recWTMabrMO0lasVE"
+	},
+	{
+		"Name": "Zustandsaufnahme des Gebäudes",
+		"Code": "UC120",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Info2BIM",
+		"Beschreibung": "",
+		"ID": "rec4DPDflomT9QMME"
+	},
+	{
+		"Name": "BIM-Vorlagen (REVIT/Archicad/VW)",
+		"Code": "UC133",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recicXJrZU4uv6xSS"
+	},
+	{
+		"Name": "BIM Projektkoordination (Little BIM/intern)",
+		"Code": "UC128",
+		"Klient": "Ingenieur",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recoA5gRr0G6uFBs8"
+	},
+	{
+		"Name": "Grundrispläne für CAFM (DWG2FM)",
+		"Code": "UC125",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recrS1IEsty1dR427"
+	},
+	{
+		"Name": "BIM Implementierung",
+		"Code": "UC130",
+		"Klient": "Ingenieur",
+		"Grad": "Medium",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "/ schnittstellen",
+		"ID": "recvAnkeaAUz7GD6k"
+	},
+	{
+		"Name": "Qualitätskontrollen",
+		"Code": "UC138",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recBocfyuvhddtgH0"
+	},
+	{
+		"Name": "Auswertung der Varianten",
+		"Code": "UC139",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "rec5Dw11ySrZni1d8"
+	},
+	{
+		"Name": "Modellbasierte Instandsetzung",
+		"Code": "UC155",
+		"Klient": "Bauherr",
+		"Grad": "Medium",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recRRX9keOrQlvyrZ"
+	},
+	{
+		"Name": "Aufgabenmanagement (Ticketing)",
+		"Code": "UC154",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recA1N34HpuGMpNrL"
+	},
+	{
+		"Name": "Bauablaufsimulation",
+		"Code": "UC158",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recDbPjObEpZzggF7"
+	},
+	{
+		"Name": "Tageslichtberechnung",
+		"Code": "UC160",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Umwelt",
+		"Beschreibung": "",
+		"ID": "recnYRM2yfca66xWl"
+	},
+	{
+		"Name": "Beleuchtungsanalysen",
+		"Code": "UC161",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Umwelt",
+		"Beschreibung": "",
+		"ID": "recdSIFuO00g7Mchr"
+	},
+	{
+		"Name": "Evakuierungsplanung",
+		"Code": "UC163",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "reccDFZoVbrtmvcO1"
+	},
+	{
+		"Name": "Datenübergabe (Datendrops)",
+		"Code": "UC164",
+		"Klient": "Ingenieur",
+		"Grad": "Medium",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "Kontrollierte Übergabe der Daten jedes Phasenendes (Datendrops)",
+		"ID": "recf7jmtzCMczT1jb"
+	},
+	{
+		"Name": "Aufgabenmanagementsystem (BIM2Pikett)",
+		"Code": "UC165",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "rec8ISAguFUBfRi1M"
+	},
+	{
+		"Name": "ICE-Sessions (BCF)",
+		"Code": "UC166",
+		"Klient": "Ingenieur",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recG5MJuIe94TFSl5"
+	},
+	{
+		"Name": "BIM-Strategie",
+		"Code": "UC167",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Strat. Planung / Vorstudien",
+		"Beschreibung": "",
+		"ID": "rec6N7CTGtK9dFGgC"
+	},
+	{
+		"Name": "Digitales BIM-Bauwerksmodell",
+		"Code": "UC168",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recwVB9Sr2uypxS89"
+	},
+	{
+		"Name": "Produkte Datenmanagement",
+		"Code": "UC170",
+		"Klient": "Hersteller",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "recCuKVXR6TNKw8QB"
+	},
+	{
+		"Name": "Konzept Visualisation und Kommunikation",
+		"Code": "UC171",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Strat. Planung / Vorstudien",
+		"Beschreibung": "",
+		"ID": "recKcFzcVsDfbtf9Q"
+	},
+	{
+		"Name": "Bauteilmodelle (Typ/Familie)",
+		"Code": "UC174",
+		"Klient": "Hersteller",
+		"Grad": "Medium",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recmwE2yk67mXWoRi"
+	},
+	{
+		"Name": "Konvertierung",
+		"Code": "UC175",
+		"Klient": "Ingenieur",
+		"Grad": "Medium",
+		"Thema": "Info2BIM",
+		"Beschreibung": "Dateiformate konvertieren",
+		"ID": "recyXQyTfXKMnpqzK"
+	},
+	{
+		"Name": "BIM-Koordination",
+		"Code": "UC177",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "datenaustauch\nstandards? ",
+		"ID": "recy7VLFpA5qsHYDX"
+	},
+	{
+		"Name": "Modellbasierte Baumachbarkeitsstudie",
+		"Code": "UC188",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recZ1piLPhIX5aPwM"
+	},
+	{
+		"Name": "Modellbasierte Nachhaltigkeit (Labels)",
+		"Code": "UC191",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Umwelt",
+		"Beschreibung": " (Minergie, Leed)",
+		"ID": "recxFwlD3dQ4LHRyN"
+	},
+	{
+		"Name": "Kollaborationsplattform (CDE)",
+		"Code": "UC193",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "rec5nUVgcEYVqMs1Q"
+	},
+	{
+		"Name": "Produkte Datenvorlagen",
+		"Code": "UC216",
+		"Klient": "Hersteller",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "recflRdZPingKYkPF"
+	},
+	{
+		"Name": "Modellbasierte Baufortschrittsüberwachung",
+		"Code": "UC213",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recTv3UXZzrgpoK0J"
+	},
+	{
+		"Name": "Modellbasierte Bauleistungsabrechnungen",
+		"Code": "UC208",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Cost",
+		"Beschreibung": "",
+		"ID": "recW2XndlgivegJZT"
+	},
+	{
+		"Name": "BIM-Objekteigenschaften (Typologie)",
+		"Code": "UC215",
+		"Klient": "Hersteller",
+		"Grad": "Medium",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "rec07m9o7Cwygza3n"
+	},
+	{
+		"Name": "Modellbasierte Bauteillisten",
+		"Code": "UC199",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "",
+		"ID": "rechagU1hbem50gPF"
+	},
+	{
+		"Name": "Einsatz von Punktwolken zur Masskontrolle",
+		"Code": "UC207",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "reci0VDDTSYgPnlvv"
+	},
+	{
+		"Name": "Modellbasierte Raumlisten",
+		"Code": "UC220",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "",
+		"ID": "reclJVCfLSTyrTxzQ"
+	},
+	{
+		"Name": "Datenübergabe nach Bauabschluss (BIM2FM)",
+		"Code": "UC210",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recns5oPytb4gyPDg"
+	},
+	{
+		"Name": "  Modellbasierte Erstellung von Leistungsverträgen",
+		"Code": "UC201",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Cost",
+		"Beschreibung": "",
+		"ID": "rectgwJecaGNDEjEA"
+	},
+	{
+		"Name": "Modellbasierte Bauvorbereitung",
+		"Code": "UC212",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recysXtSHYYULI91O"
+	},
+	{
+		"Name": "Modellbasierte Kostenermittlung",
+		"Code": "UC223",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "",
+		"ID": "rec979rpycWdgKMT4"
+	},
+	{
+		"Name": "Digitale Bauteile",
+		"Code": "UC224",
+		"Klient": "Hersteller",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recJVDU4lXluQVkxn"
+	},
+	{
+		"Name": "Dynamische Daten Visualisierung",
+		"Code": "UC225",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recr7IpmaMHrKRRyw"
+	},
+	{
+		"Name": "Visualisierung passiv (Rendering/Video)",
+		"Code": "UC226",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recbb3yNZL5J4noG3"
+	},
+	{
+		"Name": "Digitalisierung des Gebäudebestand (Retro BIM)",
+		"Code": "UC228",
+		"Klient": "Bauherr",
+		"Grad": "Medium",
+		"Thema": "Info2BIM",
+		"Beschreibung": "",
+		"ID": "recA3TrEVtoWZ5UpI"
+	},
+	{
+		"Name": "Nutzungszifferberechnungen",
+		"Code": "UC229",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Strat. Planung / Vorstudien",
+		"Beschreibung": "",
+		"ID": "recuqiOCy2PPn9bxu"
+	},
+	{
+		"Name": "Planungsvarianten bewerten",
+		"Code": "UC231",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Strat. Planung / Vorstudien",
+		"Beschreibung": "",
+		"ID": "reciliKm6Y4mdOKBh"
+	},
+	{
+		"Name": "Visualisierung für Aussicht",
+		"Code": "UC232",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Visualisierung",
+		"Beschreibung": "fix wie es heisst",
+		"ID": "recFIoUDACHuCal1x"
+	},
+	{
+		"Name": "Energieberechung",
+		"Code": "UC233",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Umwelt",
+		"Beschreibung": "",
+		"ID": "recowX0k9iswkeurO"
+	},
+	{
+		"Name": "Modellbasierte Terminplanung",
+		"Code": "UC235",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recGhN5EwtWIp27Sn"
+	},
+	{
+		"Name": "Kostenüberwachung",
+		"Code": "UC236",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Cost",
+		"Beschreibung": "",
+		"ID": "recbjrX5UqXQcqjPK"
+	},
+	{
+		"Name": "Modellbasierte Garantiemanagement",
+		"Code": "UC242",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "(LOPE 03)",
+		"ID": "rec5vykeqkur1TuLq"
+	},
+	{
+		"Name": "Modellbasierte Belegungsplanung",
+		"Code": "UC251",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "(LOPD 02)",
+		"ID": "recR5hnltNdDjv22s"
+	},
+	{
+		"Name": "Vermessung und Scannen des Bauwerks",
+		"Code": "UC254",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Info2BIM",
+		"Beschreibung": "",
+		"ID": "rec9iBzAynbTAtDxv"
+	},
+	{
+		"Name": "Situationsmodell/Umgebungsplan",
+		"Code": "UC257",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recdMpaDa6YTFGkP2"
+	},
+	{
+		"Name": "Gipsmodellunterlagen (3D Druck)",
+		"Code": "UC258",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "basteln ... gemäss BIM unterlagen... 3 Druck etc",
+		"ID": "recq1BFtbRmqlLAzj"
+	},
+	{
+		"Name": "Modellbasierte Baulogistik",
+		"Code": "UC259",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recEmw172JjASD1ps"
+	},
+	{
+		"Name": "Protokollierung der Bauänderungen",
+		"Code": "UC260",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recr7l3EM2xic1Ivl"
+	},
+	{
+		"Name": "Digitale Bauteilfabrikation ",
+		"Code": "UC261",
+		"Klient": "Hersteller",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "rec2jpEBR2u4kFQF6"
+	},
+	{
+		"Name": "Klassifizierung nach eBKP-H",
+		"Code": "UC262",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recJjYCOoRoop9b8L"
+	},
+	{
+		"Name": "Schattenvisualisierung",
+		"Code": "UC264",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Visualisierung",
+		"Beschreibung": "fix wie es heisst",
+		"ID": "recqqNypm6Lkj6Lpg"
+	},
+	{
+		"Name": "Stadtmodell",
+		"Code": "UC265",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recItZpPH4ihruh2y"
+	},
+	{
+		"Name": "Data-Driven Decision Making (DDDM) ",
+		"Code": "UC266",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "Bewertung des BIM Modellen im Wettbewerbsverfahren",
+		"ID": "recxcA816L4iys0Rs"
+	},
+	{
+		"Name": "Visualisierung des Vergleichs",
+		"Code": "UC267",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Fachexpert",
+		"Thema": "Visualisierung",
+		"Beschreibung": "Bewertung des BIM Modellen im Wettbewerbsverfahren",
+		"ID": "recixynsj3RguUsfE"
+	},
+	{
+		"Name": "Visualisierung interactiv (Virtual (VR) und Augmented (AR) Reality)",
+		"Code": "UC277",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recDBKe2GC8HWqHAF"
+	},
+	{
+		"Name": "Koordinationsmodell",
+		"Code": "UC102",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recL845OmyCdKEnkC"
+	},
+	{
+		"Name": "Flächenauswertung nach SIA 416 - Unterteilung nach Nutzung",
+		"Code": "UC104",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "receD3fHn0K4yENdu"
+	},
+	{
+		"Name": "Flächenpläne mit Leistungslegenden",
+		"Code": "UC107",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Visualisierung",
+		"Beschreibung": "",
+		"ID": "recTnR8XAj06EGNwM"
+	},
+	{
+		"Name": "Änderungsworkflow mit BCF",
+		"Code": "UC105",
+		"Klient": "Ingenieur",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recvnWZ3o4dX8zQel"
+	},
+	{
+		"Name": "Modellbasierte Pläne für CAFM System (BIM2FM Dokumentation)",
+		"Code": "UC126",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "rec29Y1jZ1wVqcM80"
+	},
+	{
+		"Name": "Entwurfsmodelle erstellen",
+		"Code": "UC137",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recYMMXL7R7PKSjEx"
+	},
+	{
+		"Name": "modellbasierte Projektpläne",
+		"Code": "UC140",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "reczH0cZdqHMtPylh"
+	},
+	{
+		"Name": "modellbasierte Baueingabepläne (Construction Submissionspläne)",
+		"Code": "UC141",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recn8oLPdnYlKTcGI"
+	},
+	{
+		"Name": "modellbasierte Ausschreibungspläne / Ausschreibungsunterlagen",
+		"Code": "UC142",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recGM6UKaBVpZLb6C"
+	},
+	{
+		"Name": "modellbasierte Ausführungspläne (SIA 400)",
+		"Code": "UC143",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recfwQCr2A644DKcY"
+	},
+	{
+		"Name": "Modellbasierte Bauwerksdokumentation",
+		"Code": "UC146",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recJAQItxEsBkvgGY"
+	},
+	{
+		"Name": "modellbasierte Bauablauf / Baukoordination / Baulogistik Bauprogress überwachen",
+		"Code": "UC145",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recO5FJkt4ImKo6do"
+	},
+	{
+		"Name": "Überwachungsmanagement",
+		"Code": "UC149",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recIh7qA5nbox5zEI"
+	},
+	{
+		"Name": "Instandhaltung",
+		"Code": "UC151",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recG41PWaZX9jfHvV"
+	},
+	{
+		"Name": "Energieanalysen",
+		"Code": "UC162",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Umwelt",
+		"Beschreibung": "",
+		"ID": "recqEnLnMMWbBsTAv"
+	},
+	{
+		"Name": "BIM Projektabwicklungsplan",
+		"Code": "UC182",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "rechPexYox77ONvhj"
+	},
+	{
+		"Name": "Modellbasierte Baufortschrittskontrolle",
+		"Code": "UC184",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recqFWIMwb5sBFYSF"
+	},
+	{
+		"Name": "Marketing / BIM2FM Strategie",
+		"Code": "UC185",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "reckVfUtWvynjh1ba"
+	},
+	{
+		"Name": "BIM2FM Steuerung",
+		"Code": "UC186",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recpr7wXLMS772mdX"
+	},
+	{
+		"Name": "BIM2FM Operativ",
+		"Code": "UC187",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recrpjSiPuq1PSS9T"
+	},
+	{
+		"Name": "Modellbasierte Flächenermittlung",
+		"Code": "UC219",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "Mengenermittlung",
+		"Beschreibung": "",
+		"ID": "rec9XdiJ2EfA7ZIQc"
+	},
+	{
+		"Name": "BIM Qualitätskontrolling",
+		"Code": "UC203",
+		"Klient": "Ingenieur",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recbaSIImDjWrZyAd"
+	},
+	{
+		"Name": "Aufbau zentraler konsistenter Datenmodelle",
+		"Code": "UC198",
+		"Klient": "Ingenieur",
+		"Grad": "Pilot",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "recbbtwQWNj2t4G5M"
+	},
+	{
+		"Name": "Modellierungsrichtlinien",
+		"Code": "UC195",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Qualitätsicherung",
+		"Beschreibung": "",
+		"ID": "recwkZR16JCPiSSzf"
+	},
+	{
+		"Name": "Team Coaching",
+		"Code": "UC196",
+		"Klient": "Architekt",
+		"Grad": "Pilot",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recyYtLOmNKsOAk04"
+	},
+	{
+		"Name": "Modellbasierte Bautagesberichte",
+		"Code": "UC206",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recBBWoVSta9WXELQ"
+	},
+	{
+		"Name": "Raumprogrammmodell",
+		"Code": "UC230",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Pilot",
+		"Thema": "Erstellung",
+		"Beschreibung": "Raummodell erstellt aus ",
+		"ID": "recwEEvGuYvkbnZIp"
+	},
+	{
+		"Name": "Transparente Bauänderungskontrolling",
+		"Code": "UC234",
+		"Klient": "Bauunternehmer",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2Field",
+		"Beschreibung": "",
+		"ID": "recZncflLijUNEpQb"
+	},
+	{
+		"Name": "Mandatsübernahme/-übergabe (LEP 01)",
+		"Code": "UC237",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recaDHCeMGFFxhn8H"
+	},
+	{
+		"Name": "Auftragsmanagement (LEP 05 )",
+		"Code": "UC238",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recT99M5meajyBz8D"
+	},
+	{
+		"Name": "Vertragsmanagement FM (LEP 08 )",
+		"Code": "UC240",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recXG11JnbtcuElDw"
+	},
+	{
+		"Name": "Vermietung (LOPK 01)",
+		"Code": "UC243",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recpj4ZNLPEVIoc9p"
+	},
+	{
+		"Name": "Objektdokumentation (Pflege) (LOPK 12)",
+		"Code": "UC244",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recUDg0cSfZg3ipbd"
+	},
+	{
+		"Name": "Störungsanalyse (LOPB 02)",
+		"Code": "UC245",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "receIq7utb0fENYi2"
+	},
+	{
+		"Name": "Wartung (LOPB 04)",
+		"Code": "UC246",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recyPYLhOsFh4wzVZ"
+	},
+	{
+		"Name": "Instandsetzung (LOPB 05)",
+		"Code": "UC247",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "rec1P3OaEIJSDMyUl"
+	},
+	{
+		"Name": "Energiecontrolling (LOPB 07)",
+		"Code": "UC248",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "rectaUvnew5Jz0bX6"
+	},
+	{
+		"Name": "Operatives Flächenmanagement (LOPD 01)",
+		"Code": "UC250",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recJkWzWprVMc5lnF"
+	},
+	{
+		"Name": "Pikett (LOPD 05)",
+		"Code": "UC252",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recW2ilNBKiAynLah"
+	},
+	{
+		"Name": "Eventmanagement",
+		"Code": "UC253",
+		"Klient": "Bauherr",
+		"Grad": "Fachexpert",
+		"Thema": "BIM2FM",
+		"Beschreibung": "",
+		"ID": "recXtNbyg9LRZa780"
+	},
+	{
+		"Name": "CAD Unterlagen für die Wettbewerb",
+		"Code": "UC256",
+		"Klient": "Wettbewerbsmanagement",
+		"Grad": "Medium",
+		"Thema": "Info2BIM",
+		"Beschreibung": "Die Wettbewerbsergebnisse, erstellt gemäss korrekten digitalen Unterlagen (z.B. BIM-Anforderungen, BIM-Modell), sind von höchster Qualität.",
+		"ID": "recQkJDqf95p1OWep"
+	},
+	{
+		"Name": "Dokumentenmanagement-System (DMS)",
+		"Code": "UC269",
+		"Klient": "Bauherr",
+		"Grad": "Pilot",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "recqvcQWKfDLWge4a"
+	},
+	{
+		"Name": "Anlagenkennzeichnungssystem (AKS) Struktur",
+		"Code": "UC271",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Informationsmanagement",
+		"Beschreibung": "",
+		"ID": "rec6GP8vbUmMYkbQ6"
+	},
+	{
+		"Name": "Modellbasierte Prinzipschemata",
+		"Code": "UC272",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recROAlwHQmvFspjI"
+	},
+	{
+		"Name": "BIM Projektkoordination (Big BIM)",
+		"Code": "UC275",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Prozessmanagement",
+		"Beschreibung": "",
+		"ID": "recB5T2rPocKvYilH"
+	},
+	{
+		"Name": "Modellbasierte Strangschemata",
+		"Code": "UC276",
+		"Klient": "Ingenieur",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recA76vfWzrtTC6bn"
+	},
+	{
+		"Name": "Parametrisierte Bauteile",
+		"Code": "UC278",
+		"Klient": "Architekt",
+		"Grad": "Medium",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recF6cqFoTMHSi96u"
+	},
+	{
+		"Name": "Dynamische Entwurfsplanung",
+		"Code": "UC279",
+		"Klient": "Architekt",
+		"Grad": "Fachexpert",
+		"Thema": "Erstellung",
+		"Beschreibung": "",
+		"ID": "recFzckuLadKz8NCc"
+	}
+]
