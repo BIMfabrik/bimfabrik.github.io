@@ -63,3 +63,39 @@ body {
     padding: .75rem 1.25rem;
     font-weight: 700;
 }
+
+.main-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 0.625rem;
+
+    .company-name {
+        flex-grow: 1;
+        flex-basis: 100%;
+        float: right;
+
+        h1 {
+            float: right;
+        }
+    }
+
+    .company-logo {
+        flex-grow: 1;
+        flex-basis: 100%;
+
+        img {
+            height: 4.6875rem;
+            float: left;
+        }
+    }
+}
+
+.version {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 0.625rem;
+}
