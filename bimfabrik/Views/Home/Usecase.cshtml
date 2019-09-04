@@ -31,7 +31,7 @@
                data-show-fullscreen="true"
                data-show-columns="true"
                data-detail-view="true"
-               data-detail-formatter="detailFormatter"
+               data-detail-formatter="useCaseDetailFormatter"
                data-show-export="true"
                data-minimum-count-columns="2"
                data-show-pagination-switch="true"
@@ -41,7 +41,7 @@
                data-show-footer="true"
                data-show-print="true"
                data-locale="de-DE"
-               data-url="https://localhost:44351/Data/UseCase.json"
+               data-url="@Url.Action("GetUsecaseJson")"
                data-cache="true"
                data-filter-control="true"
                data-maintain-meta-data="true"
@@ -49,7 +49,7 @@
                class="table table-striped table-condensed table-hover">
             <thead>
                 <tr>
-                    <th data-field="state" data-checkbox="true" data-sortable="true">Status</th>
+                    <th data-field="state" data-checkbox="true">Status</th>
                     <th data-field="Code" data-sortable="true">Code</th>
                     <th data-field="Name" data-filter-control="input">Name</th>
                     <th data-field="Klient" data-filter-control="select">Klient</th>
@@ -60,3 +60,4 @@
         </table>
     </div>
 </div>
+<script src="~/dist/Usecase.js" asp-append-version="true"></script>

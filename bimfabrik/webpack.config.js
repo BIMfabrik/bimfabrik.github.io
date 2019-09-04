@@ -1,13 +1,19 @@
 ﻿const path = require('path');
 
 module.exports = {
-    entry: ['./Assets/js/index.js', './Assets/scss/index.scss'],
+    entry: {
+        'main': './Assets/js/index.js',
+        'Usecase': './Assets/js/Usecase.js',
+        'Platform': './Assets/js/Platform.js',
+        'eBKP': './Assets/js/eBKP.js',
+        'index': './Assets/scss/index.scss'
+    },
     output: {
-        filename: 'index.js',
-        path: path.resolve(__dirname, 'wwwroot/dist')
+        path: path.resolve(__dirname, 'wwwroot/dist'),
+        filename: '[name].js'
     },
     resolve: {
-        extensions: [".js", ".ts"]
+        extensions: [".js", ".ts", ".scss"]
     },
     module: {
         rules: [

@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "eBKP-H";
+}
+
+<div class="main-title">
+    <div class="company-name">
+        <h1>eBKP-H</h1>
+    </div>
+    <div class="company-logo">
+        <img src="https://filedn.com/lRoA3WDmn4KBdjoar1IOOOQ/CDN/_graphic/BIMfab%20LOGO.png" />
+    </div>
+</div>
+<div class="version">
+    <p>
+        version 0.68 (die Seite nicht neu laden!)
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table id="table"
+               data-toggle="table"
+               data-click-to-select="true"
+               data-sortable="true"
+               data-search="true"
+               data-group-by="true"
+               data-group-by-field="name"
+               data-cookie="true"
+               data-cookie-id-table="ebkpID"
+               data-show-refresh="false"
+               data-show-toggle="true"
+               data-show-fullscreen="true"
+               data-show-columns="true"
+               data-detail-view="true"
+               data-detail-formatter="eBKPDetailFormatter"
+               data-show-export="true"
+               data-minimum-count-columns="2"
+               data-show-pagination-switch="true"
+               data-pagination="true"
+               data-id-field="ID"
+               data-page-list="[10, 25, 50, 100, all]"
+               data-show-footer="true"
+               data-show-print="true"
+               data-locale="de-DE"
+               data-url="@Url.Action("GetEbkJson")"
+               data-cache="true"
+               data-filter-control="true"
+               data-maintain-meta-data="true"
+               data-show-search-clear-button="true"
+               class="table table-striped table-condensed table-hover">
+            <thead>
+                <tr>
+                    <th data-field="state" data-checkbox="true">Status</th>
+                    <th data-field="Code" data-sortable="true">Code</th>
+                    <th data-field="Hauptgruppe" data-filter-control="select">Hauptgruppe</th>
+                    <th data-field="Elementgruppe" data-filter-control="select">Elementgruppe</th>
+                    <th data-field="Element" data-filter-control="input">Element</th>
+                    <th data-field="Teilelement" data-filter-control="input">Teilelement</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+<script src="~/dist/eBKP.js" asp-append-version="true"></script>
