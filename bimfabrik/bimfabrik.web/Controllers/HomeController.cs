@@ -3,21 +3,35 @@
 using bimfabrik.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Diagnostics;
+using System.Net.Http;
+using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace bimfabrik.Controllers
 {
     public class HomeController : Controller
     {
         private readonly IHostingEnvironment _hostingEnvironment;
+        private readonly IHttpClientFactory _clientFactory;
 
-        public HomeController(IHostingEnvironment hostingEnvironment)
+        public HomeController(IHostingEnvironment hostingEnvironment, IHttpClientFactory clientFactory)
         {
             _hostingEnvironment = hostingEnvironment;
+            _clientFactory = clientFactory;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var client = _clientFactory.CreateClient();
+            dynamic obj = new { Username = "test", Password = "test" };
+            var myContent = JsonConvert.SerializeObject(obj);
+            var buffer = System.Text.Encoding.UTF8.GetBytes(myContent);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            var result = await client.PostAsync("https://localhost:44316/api/Users/authenticate", byteContent);
             return View();
         }
 

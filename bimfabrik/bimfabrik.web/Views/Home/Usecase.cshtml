@@ -1,20 +1,22 @@
 ﻿@{
-    ViewData["Title"] = "Platforms";
+    ViewData["Title"] = "UseCases";
 }
 
 <div class="main-title">
-    <div class="company-logo">
+    <div class="company-logo d-none d-sm-block">
         <img src="https://filedn.com/lRoA3WDmn4KBdjoar1IOOOQ/CDN/_graphic/BIMfab%20LOGO.png" />
     </div>
     <div class="company-name">
-        <h1>BIM Platforms</h1>
-    </div>    
+        <h1>BIM Anwendungsfälle</h1>
+    </div>
 </div>
 <div class="version">
-    <p>
-        version 0.68 (die Seite nicht neu laden!)
-    </p>
+    <h3>version 0.68 (die Seite nicht neu laden!)</h3>
 </div>
+<div class="date">
+    <h3>@DateTime.Today.ToShortDateString()</h3>
+</div>
+
 <div class="row">
     <div class="col-md-12">
         <table id="table"
@@ -25,13 +27,13 @@
                data-group-by="true"
                data-group-by-field="name"
                data-cookie="true"
-               data-cookie-id-table="platformCookID"
+               data-cookie-id-table="UseCaseCookID"
                data-show-refresh="false"
                data-show-toggle="true"
                data-show-fullscreen="true"
                data-show-columns="true"
                data-detail-view="true"
-               data-detail-formatter="platformDetailFormatter"
+               data-detail-formatter="useCaseDetailFormatter"
                data-show-export="true"
                data-minimum-count-columns="2"
                data-show-pagination-switch="true"
@@ -41,7 +43,7 @@
                data-show-footer="true"
                data-show-print="true"
                data-locale="de-DE"
-               data-url="@Url.Action("GetPlatformJson")"
+               data-url="@Url.Action("GetUsecaseJson")"
                data-cache="true"
                data-filter-control="true"
                data-maintain-meta-data="true"
@@ -50,17 +52,14 @@
             <thead>
                 <tr>
                     <th data-field="state" data-checkbox="true">Status</th>
-                    <th data-field="Name" data-filter-control="Input">Name</th>
-                    <th data-field="Online" data-filter-control="select">Online</th>
-                    <th data-field="VRAR" data-filter-control="select">VR/AR</th>
-                    <th data-field="FM" data-filter-control="select">FM</th>
-                    <th data-field="Import" data-filter-control="select">Import</th>
-                    <th data-field="Kolaboration" data-filter-control="select">Kolaboration</th>
-                    <th data-field="Ausschreibung" data-filter-control="select">Ausschreibung</th>
-
+                    <th data-field="Code" data-sortable="true">Code</th>
+                    <th data-field="Name" data-filter-control="input">Name</th>
+                    <th data-field="Klient" data-filter-control="select">Klient</th>
+                    <th data-field="Grad" data-filter-control="select">Grad</th>
+                    <th data-field="Thema" data-filter-control="select">Thema</th>
                 </tr>
             </thead>
         </table>
     </div>
 </div>
-<script src="~/dist/Platform.js" asp-append-version="true"></script>
+<script src="~/dist/Usecase.js" asp-append-version="true"></script>
