@@ -1,6 +1,6 @@
 ﻿import 'bootstrap';
 import $ from 'jquery';
-import 'bootstrap-table';
+import 'bootstrap-table/dist/bootstrap-table';
 import 'bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';

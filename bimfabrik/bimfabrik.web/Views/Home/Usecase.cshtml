@@ -19,35 +19,8 @@
 
 <div class="row">
     <div class="col-md-12">
+        @Html.Hidden("GetUseCasesUrl", Url.Action("GetUsecaseJson"))
         <table id="table"
-               data-toggle="table"
-               data-click-to-select="true"
-               data-sortable="true"
-               data-search="true"
-               data-group-by="true"
-               data-group-by-field="name"
-               data-cookie="true"
-               data-cookie-id-table="UseCaseCookID"
-               data-show-refresh="false"
-               data-show-toggle="true"
-               data-show-fullscreen="true"
-               data-show-columns="true"
-               data-detail-view="true"
-               data-detail-formatter="useCaseDetailFormatter"
-               data-show-export="true"
-               data-minimum-count-columns="2"
-               data-show-pagination-switch="true"
-               data-pagination="true"
-               data-id-field="ID"
-               data-page-list="[10, 25, 50, 100, all]"
-               data-show-footer="true"
-               data-show-print="true"
-               data-locale="de-DE"
-               data-url="@Url.Action("GetUsecaseJson")"
-               data-cache="true"
-               data-filter-control="true"
-               data-maintain-meta-data="true"
-               data-show-search-clear-button="true"
                class="table table-striped table-condensed table-hover">
             <thead>
                 <tr>
@@ -62,4 +35,6 @@
         </table>
     </div>
 </div>
-<script src="~/dist/Usecase.js" asp-append-version="true"></script>
+@section scripts {
+    <script src="~/dist/Usecase.js" asp-append-version="true"></script>
+}
