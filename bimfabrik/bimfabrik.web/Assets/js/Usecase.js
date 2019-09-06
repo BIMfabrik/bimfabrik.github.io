@@ -1,6 +1,6 @@
-﻿var useCaseTable = $("#table");
+﻿var table = $("#table");
 $(function () {
-    useCaseTable.bootstrapTable({
+    table.bootstrapTable({
         clickToSelect: true,
         sortable: true,
         search: true,
@@ -11,7 +11,7 @@ $(function () {
         showFullscreen: true,
         showColumns: true,
         detailView: true,
-        detailFormatter: useCaseDetailFormatter,
+        detailFormatter: detailFormatter,
         showExport: true,
         minimumCountColumns: 2,
         showPaginationSwitch: true,
@@ -26,15 +26,15 @@ $(function () {
         filterControl: true,
         maintainMetaData: true,
         showSearchClearButton: true,
-        onCheckAll: onCheckAllUseCases,
-        onUncheckAll: onUncheckAllUseCases,
-        onCheck: onCheckUseCase,
-        onUncheck: onUncheckUseCase,
-        onPostBody: onPostBodyUseCase
+        onCheckAll: onCheckAll,
+        onUncheckAll: onUncheckAll,
+        onCheck: onCheck,
+        onUncheck: onUncheck,
+        onPostBody: onPostBody
     });
 });
 
-function useCaseDetailFormatter(index, row) {
+function detailFormatter(index, row) {
     var html = [];
     $.each(row, function (key, value) {
         html.push('<p><b>' + key + ':</b> ' + (!value ? "false" : value) + '</p>');
@@ -42,21 +42,21 @@ function useCaseDetailFormatter(index, row) {
     return html.join('');
 }
 
-function onCheckAllUseCases(rowsAfter, rowsBefore) {
+function onCheckAll(rowsAfter, rowsBefore) {
     localStorage.setItem("useCases", JSON.stringify(rowsAfter));
 }
 
-function onUncheckAllUseCases() {
+function onUncheckAll() {
     localStorage.setItem("useCases", JSON.stringify([]));
 }
 
-function onCheckUseCase(row, element) {
-    const rows = JSON.parse(localStorage.getItem("useCases"));
+function onCheck(row, element) {
+    const rows = JSON.parse(localStorage.getItem("useCases")) || [];
     rows.push(row);
     localStorage.setItem("useCases", JSON.stringify(rows));
 }
 
-function onUncheckUseCase(row, element) {
+function onUncheck(row, element) {
     const rows = JSON.parse(localStorage.getItem("useCases"));
 
     var filtered = rows.filter(function (value, index, arr) {
@@ -65,7 +65,7 @@ function onUncheckUseCase(row, element) {
     localStorage.setItem("useCases", JSON.stringify(filtered));
 }
 
-function onPostBodyUseCase() {
+function onPostBody() {
     const rows = JSON.parse(localStorage.getItem("useCases"));
     if (!rows) {
         return;
@@ -77,7 +77,7 @@ function onPostBodyUseCase() {
         codes.push(rows[i].Code);
     }
     
-    useCaseTable.bootstrapTable("checkBy", {
+    table.bootstrapTable("checkBy", {
         field: "Code",
         values: codes
     });
