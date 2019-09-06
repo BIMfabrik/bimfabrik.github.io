@@ -1,0 +1,37 @@
+{
+  "name": "bimfabrik",
+  "version": "1.0.0",
+  "description": "bimfabrik system",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --mode=development",
+    "watch": "webpack --progress --watch --mode=development",
+    "production": "webpack --progress --mode production",
+    "publish": "npm run release && dotnet publish -c Release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "autoprefixer": "^9.6.1",
+    "bootstrap-table": "^1.15.4",
+    "css-loader": "^3.2.0",
+    "exports-loader": "^0.7.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^4.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.12.9",
+    "webpack": "^4.39.3"
+  }
+}
