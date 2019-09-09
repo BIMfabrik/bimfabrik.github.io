@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8" />
@@ -7,24 +8,10 @@
     <link rel="stylesheet" href="~/dist/index.css" />
 </head>
 <body>
-    <partial name="_Header"/>
+    <partial name="_Header" />
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3 inner cover">
-            <div class="main-title">
-                <div class="company-logo d-none d-sm-block">
-                    <img src="https://filedn.com/lRoA3WDmn4KBdjoar1IOOOQ/CDN/_graphic/BIMfab%20LOGO.png" />
-                </div>
-                <div class="company-name">
-                    <h1>@ViewData["CurrentPage"]</h1>
-                </div>
-            </div>
-            <div class="version">
-                <h4>version 0.70</h4>
-            </div>
-            <div class="date">
-                <h3>@DateTime.Today.ToShortDateString()</h3>
-            </div>
             @RenderBody()
         </main>
     </div>
