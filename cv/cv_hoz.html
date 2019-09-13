@@ -9,6 +9,23 @@
             max-height: 12.5rem;
             border-radius: 0.3125rem;
         }
+
+        [data-toggle="collapse"] .fa:before {
+            content: "\f139";
+        }
+
+        [data-toggle="collapse"].collapsed .fa:before {
+            content: "\f13a";
+        }
+
+        .collapse-icon {
+            margin-right: 0.5rem;
+        }
+
+        .collapse-title {
+            background-color: #dddddd;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -56,7 +73,7 @@
             </div>
         </div>
         <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto">
-            <h5>AUS‐ UND WEITERBILDUNGEN</h5>
+            <h3>AUS‐ UND WEITERBILDUNGEN</h3>
             <div class="card-deck mb-3">
                 <div class="card mb-4 shadow-sm">
                     <div class="card-body">
@@ -76,7 +93,7 @@
         </div>
 
         <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto">
-            <h5>WERDEGANG</h5>
+            <h3>WERDEGANG</h3>
             <div class="table-responsive">
                 <table class="table table-striped table-condensed table-borderless">
                     <thead>
@@ -121,9 +138,12 @@
             <h3>EXPERIENCE</h3>
             <div class="row pt-md-5">
                 <div class="col-12">
-                    <div class="shadow-sm p-3 mb-5 bg-white rounded"><h4>BIMfabrik GmbH</h4></div>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-condensed table-borderless">
+                    <div class="shadow-sm p-3 mb-3 collapse-title rounded text-dark" data-toggle="collapse"
+                        data-target="#bimfabrik">
+                        <h4><i class="fa collapse-icon"></i>BIMfabrik GmbH</h4>
+                    </div>
+                    <div class="table-responsive collapse show" id="bimfabrik">
+                        <table class="table table-striped table-condensed table-borderless table-sm">
                             <thead>
                                 <tr>
                                     <th scope="col">Projektname</th>
@@ -144,7 +164,7 @@
                                     <td>ZH,CH</td>
                                     <td>Raumanzug</td>
                                     <td>BIM-Beratung des Unternehmens</td>
-                                    <td>Optimierung von internen Prozessen</td>
+                                    <td>UC113_Optimierung von internen Prozessen</td>
                                     <td>BIM-Manager</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -155,10 +175,10 @@
                                     <td>ZH,CH</td>
                                     <td>werkteam</td>
                                     <td>Interne Implementierung der BIM-Methodik</td>
-                                    <td>BIM Implementierung
-                                        <br>BIM-Pilotprojektmanagement
-                                        <br>Optimierung von internen Prozessen
-                                        <br>BIM-Strategie</td>
+                                    <td>UC130_BIM Implementierung
+                                        <br>UC101_BIM-Pilotprojektmanagement
+                                        <br>UC113_Optimierung von internen Prozessen
+                                        <br>UC167_BIM-Strategie</td>
                                     <td>BIM-Manager</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -169,10 +189,10 @@
                                     <td>SH, CH</td>
                                     <td>Bauaufnahmen</td>
                                     <td>BIM-Bestandsmodell</td>
-                                    <td>Punktwolke als Grundlagen
-                                        <br>Digitales Architekturmodell
-                                        <br>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC121_Punktwolke als Grundlagen
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -185,10 +205,10 @@
                                     <td>ZH,CH</td>
                                     <td>CADMEC:ewz</td>
                                     <td>BIM-Bestandsmodell für ewz WHH Bauprojekt</td>
-                                    <td>Punktwolke als Grundlagen
-                                        <br>Digitales Architekturmodell
-                                        <br>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC121_Punktwolke als Grundlagen
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
 
@@ -202,9 +222,9 @@
                                     <td>BS, CH</td>
                                     <td>CADMEC:Unispital Basel</td>
                                     <td>Integrierung der Vectorworks Pläne für die CAFM Lösung</td>
-                                    <td>BIM Implementierung
-                                        <br>Grundrispläne für CAFM (DWG2FM)
-                                        <br>Erweiterung der BIM-Kompetenz</td>
+                                    <td>UC130_BIM Implementierung
+                                        <br>UC125_Grundrispläne für CAFM (DWG2FM)
+                                        <br>UC135_Erweiterung der BIM-Kompetenz</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Vectorworks</td>
                                     <td></td>
@@ -215,9 +235,9 @@
                                     <td>ZH,CH</td>
                                     <td>Bauaufnamen:COOP</td>
                                     <td>BIM-Bestandsmodell des EKZ Coop für die Planung</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Punktwolke als Grundlagen</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC121_Punktwolke als Grundlagen</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -230,8 +250,8 @@
                                     <td>ZH,CH</td>
                                     <td>CADMEC:SBB</td>
                                     <td>Visuelle Präsentation des Bauprojekts</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Situationsmodell/Umgebungsplan</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC257_Situationsmodell/Umgebungsplan</td>
                                     <td>
                                         BIM-Konstrukteur
 
@@ -245,9 +265,9 @@
                                     <td>ZH,CH</td>
                                     <td>CADMEC</td>
                                     <td>BIM-Bestandsmodell EFH</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Punktwolke als Grundlagen</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC121_Punktwolke als Grundlagen</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -261,9 +281,12 @@
             </div>
             <div class="row pt-md-5">
                 <div class="col-12">
-                    <div class="shadow-sm p-3 mb-5 bg-white rounded"><h4>​​Cadmec AG</h4></div>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-condensed table-borderless">
+                    <div class="shadow-sm p-3 mb-3 collapse-title rounded text-dark collapsed" data-toggle="collapse"
+                        data-target="#cadmecag">
+                        <h4><i class="fa collapse-icon"></i>​​Cadmec AG</h4>
+                    </div>
+                    <div class="table-responsive collapse" id="cadmecag">
+                        <table class="table table-striped table-condensed table-borderless table-sm">
                             <thead>
                                 <tr>
                                     <th scope="col">Projektname</th>
@@ -287,7 +310,7 @@
                                         Korrekturen des
                                         BIM-Architekturmodells des Circle am Flughafen Zürich
                                     </td>
-                                    <td>Digitales Architekturmodell </td>
+                                    <td>UC284_Digitales Architekturmodell </td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -300,11 +323,11 @@
                                     <td>AG, ZH</td>
                                     <td>Axa Leben</td>
                                     <td>BIM-Bestandsmodell der Telli Gebäude</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation
-                                        <br>Punktwolke als Grundlagen
-                                        <br>Vermessung und Scannen des Bauwerks</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation
+                                        <br>UC121_Punktwolke als Grundlagen
+                                        <br>UC254_Vermessung und Scannen des Bauwerks</td>
                                     <td>BIM-Manager</td>
                                     <td>Archicad</td>
                                     <td></td>
@@ -315,7 +338,7 @@
                                     <td>ZH,CH</td>
                                     <td>Swiss RE</td>
                                     <td>Schulung des Teams in Autocad 3D-Modellierung</td>
-                                    <td>Erweiterung der BIM-Kompetenz</td>
+                                    <td>UC135_Erweiterung der BIM-Kompetenz</td>
                                     <td>BIM-Manager</td>
                                     <td>Autocad</td>
                                     <td></td>
@@ -329,8 +352,8 @@
                                         Psychiatrische Kliniken Basel
                                     </td>
                                     <td>Intergration CAD Pläne (Vectorworks) to CAFM (waveware)</td>
-                                    <td>BIM Implementierung
-                                        <br>Grundrispläne für CAFM (DWG2FM)</td>
+                                    <td>UC130_BIM Implementierung
+                                        <br>UC125_Grundrispläne für CAFM (DWG2FM)</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Vectorworks</td>
                                     <td></td>
@@ -341,8 +364,8 @@
                                     <td>GR, ZH</td>
                                     <td>Hochbauamt Graubünden</td>
                                     <td>LOD 100 Situationsmodell für Wettbewerb</td>
-                                    <td>Stadtmodell
-                                        <br>BIM Unterlagen für die Wettbewerb (Bestandsmodell)</td>
+                                    <td>UC265_Stadtmodell
+                                        <br>UC122_BIM Unterlagen für die Wettbewerb (Bestandsmodell)</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -358,7 +381,7 @@
                                         Psychiatrische Kliniken Basel
                                     </td>
                                     <td>LOD 100 Situationsmodell für die Orientierung</td>
-                                    <td>Situationsmodell/Umgebungsplan</td>
+                                    <td>UC257_Situationsmodell/Umgebungsplan</td>
                                     <td>BIM-Manager</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -369,7 +392,7 @@
                                     <td>ZH,CH</td>
                                     <td>Serliana AG</td>
                                     <td>Architekturmodell für das Bauprojekt</td>
-                                    <td>Digitales Architekturmodell </td>
+                                    <td>UC284_Digitales Architekturmodell </td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -382,10 +405,10 @@
                                     <td>ZH,CH</td>
                                     <td>Property One Partners AG</td>
                                     <td>Bestandsmodell des MFH für Umbau</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation
-                                        <br>Zustandsaufnahme des Gebäudes</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation
+                                        <br>UC120_Zustandsaufnahme des Gebäudes</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -398,9 +421,9 @@
                                     <td>ZH,CH</td>
                                     <td>Spital Bülach</td>
                                     <td>Bestandsmodell Spital Bülach</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -416,10 +439,10 @@
                                     <td>ZH,CH</td>
                                     <td>Libag AG</td>
                                     <td>Aufnahme und Erstellung der zentralen GT Glattzentrum</td>
-                                    <td>Digitales Fachmodell
-                                        <br>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Vermessung und Scannen des Bauwerks
-                                        <br>Punktwolke als Grundlagen</td>
+                                    <td>UC285_Digitales Fachmodell
+                                        <br>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC254_Vermessung und Scannen des Bauwerks
+                                        <br>UC121_Punktwolke als Grundlagen</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Revit</td>
                                     <td></td>
@@ -430,8 +453,8 @@
                                     <td>ZH,CH</td>
                                     <td>CADMEC</td>
                                     <td>Erstellung und Koordination des Datenfeldes</td>
-                                    <td>Klassifizierung nach eBKP-H
-                                        <br>BIM-Modellplan</td>
+                                    <td>UC262_Klassifizierung nach eBKP-H
+                                        <br>UC287_BIM-Modellplan</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -442,7 +465,7 @@
                                     <td>ZH,CH</td>
                                     <td>Swiss Prime Site Group AG</td>
                                     <td>BIM-Machbarkeitsstudie des Standorts &quot;Riverside&quot;</td>
-                                    <td>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -453,8 +476,8 @@
                                     <td>ZH,CH</td>
                                     <td>CADMEC</td>
                                     <td>Interne Prozesse verbessern und dokumentieren</td>
-                                    <td>BIM-Strategie
-                                        <br>BIM-Prozessplan</td>
+                                    <td>UC167_BIM-Strategie
+                                        <br>UC286_BIM-Prozessplan</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -465,9 +488,9 @@
                                     <td>ZH,CH</td>
                                     <td>Spital Männedorf</td>
                                     <td>Bestandsmodell Spital Männedorf</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -480,9 +503,9 @@
                                     <td>ZH,CH</td>
                                     <td>ewz</td>
                                     <td>Bestandsmodell Kraftwerk Burrischopf</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -501,8 +524,8 @@
                                         Implementierung
                                         des Datenaustauschs zwischen 2 Software Produkten
                                     </td>
-                                    <td>Klassifizierung nach eBKP-H
-                                        <br>BIM Implementierung</td>
+                                    <td>UC262_Klassifizierung nach eBKP-H
+                                        <br>UC130_BIM Implementierung</td>
                                     <td>BIM-Koordinator</td>
                                     <td>Misc</td>
                                     <td></td>
@@ -513,10 +536,10 @@
                                     <td>ZH,CH</td>
                                     <td>Property One Partners AG</td>
                                     <td>Bestandsmodell des MFH für Umbau</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation
-                                        <br>Zustandsaufnahme des Gebäudes</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation
+                                        <br>UC120_Zustandsaufnahme des Gebäudes</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -529,9 +552,9 @@
                                     <td>ZH,CH</td>
                                     <td>ewz</td>
                                     <td>Bestandsmodell Kraftwerk Letten</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -544,12 +567,12 @@
                                     <td>ZH,CH</td>
                                     <td>ewz</td>
                                     <td>Bestandsmodell des ewz Hauptsitzes in Oerlikon</td>
-                                    <td>Digitalisierung des Gebäudebestand (Retro BIM)
-                                        <br>Digitales Architekturmodell
-                                        <br>Modellbasierte Bauwerksdokumentation
-                                        <br>Modellbasierte Mengenermittlung
-                                        <br>Flächenauswertung nach SIA 416 - Unterteilung nach Nutzung
-                                        <br>Modellbasierte Pläne für CAFM System (BIM2FM Dokumentation)</td>
+                                    <td>UC228_Digitalisierung des Gebäudebestand (Retro BIM)
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC146_Modellbasierte Bauwerksdokumentation
+                                        <br>UC118_Modellbasierte Mengenermittlung
+                                        <br>UC104_Flächenauswertung nach SIA 416 - Unterteilung nach Nutzung
+                                        <br>UC126_Modellbasierte Pläne für CAFM System (BIM2FM Dokumentation)</td>
                                     <td>
                                         BIM-Konstrukteur
                                     </td>
@@ -563,9 +586,12 @@
             </div>
             <div class="row pt-md-5">
                 <div class="col-12">
-                    <div class="shadow-sm p-3 mb-5 bg-white rounded"><h4>​​Plazibat & Jemmott Architects</h4></div>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-condensed table-borderless">
+                    <div class="shadow-sm p-3 mb-3 collapse-title rounded text-dark collapsed" data-toggle="collapse"
+                        data-target="#​​plazibat">
+                        <h4><i class="fa collapse-icon"></i>​​Plazibat & Jemmott Architects</h4>
+                    </div>
+                    <div class="table-responsive collapse" id="​​plazibat">
+                        <table class="table table-striped table-condensed table-borderless table-sm">
                             <thead>
                                 <tr>
                                     <th scope="col">Projektname</th>
@@ -586,11 +612,11 @@
                                     <td>QLD, AU</td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH </td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>Architekt Assistant</td>
                                     <td>Revit,3D Max</td>
                                     <td><a target="_blank"
@@ -605,11 +631,11 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>Architekt Assistant
                                     </td>
                                     <td>Revit,Sketchup,3D Max</td>
@@ -626,11 +652,11 @@
                                     </td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>Architekt Assistant
                                     </td>
                                     <td>Revit,Artlantis</td>
@@ -647,11 +673,11 @@
                                     </td>
                                     <td>JNA Property PTY LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -670,12 +696,12 @@
                                     </td>
                                     <td>Springfield Land Corporation</td>
                                     <td>Entwurf des Hotels</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -695,17 +721,17 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Umbau und Erweiterung des denkmalgeschützten Gebäudes</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten
-                                        <br>Modellbasierte Mengenermittlung</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten
+                                        <br>UC118_Modellbasierte Mengenermittlung</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -724,13 +750,13 @@
                                     </td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -749,12 +775,12 @@
                                     </td>
                                     <td>Sharpe Development Group Pty Ltd</td>
                                     <td>Entwurf des Strandhauses</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -773,13 +799,13 @@
                                     </td>
                                     <td>Gambaro</td>
                                     <td>Umbau des Restaurants und Erweiterung der Hotelabteilung</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -798,18 +824,18 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten
-                                        <br>Modellbasierte Mengenermittlung</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten
+                                        <br>UC118_Modellbasierte Mengenermittlung</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -828,16 +854,16 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Neubau EFH am Flussufer</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)</td>
                                     <td>Architekt</td>
                                     <td>Archicad, Artlantis</td>
                                     <td><a target="_blank"
@@ -853,16 +879,16 @@
                                     </td>
                                     <td>Plazibatt</td>
                                     <td>Neubau EFH</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -881,13 +907,13 @@
                                     </td>
                                     <td>-</td>
                                     <td>Sunshade study for the entry extension</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Schattenvisualisierung
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Tageslichtberechnung
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC264_Schattenvisualisierung
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC160_Tageslichtberechnung
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -906,16 +932,16 @@
                                     </td>
                                     <td>Buranda Developments Pty Ltd</td>
                                     <td>Multiresidential Development</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Schattenvisualisierung
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Visualisierung für Aussicht
-                                        <br>Tageslichtberechnung
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Gipsmodellunterlagen (3D Druck)
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Baueingabepläne</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC264_Schattenvisualisierung
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC160_Tageslichtberechnung
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC258_Gipsmodellunterlagen (3D Druck)
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC141_Modellbasierte Baueingabepläne</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -933,9 +959,12 @@
             </div>
             <div class="row pt-md-5">
                 <div class="col-12">
-                    <div class="shadow-sm p-3 mb-5 bg-white rounded"><h4>​​Hans-Paul architekti</h4></div>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-condensed table-borderless">
+                    <div class="shadow-sm p-3 mb-3 collapse-title rounded text-dark collapsed" data-toggle="collapse"
+                        data-target="#architekti">
+                        <h4><i class="fa collapse-icon"></i>​​Hans-Paul architekti</h4>
+                    </div>
+                    <div class="table-responsive collapse" id="architekti">
+                        <table class="table table-striped table-condensed table-borderless table-sm">
                             <thead>
                                 <tr>
                                     <th scope="col">Projektname</th>
@@ -958,11 +987,11 @@
                                     </td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH </td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>Architekt Assistant
                                     </td>
                                     <td>Revit,3D Max</td>
@@ -979,11 +1008,11 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1002,11 +1031,11 @@
                                     </td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1025,11 +1054,11 @@
                                     </td>
                                     <td>JNA Property PTY LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1048,12 +1077,12 @@
                                     </td>
                                     <td>Springfield Land Corporation</td>
                                     <td>Entwurf des Hotels</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1073,17 +1102,17 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Umbau und Erweiterung des denkmalgeschützten Gebäudes</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten
-                                        <br>Modellbasierte Mengenermittlung</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten
+                                        <br>UC118_Modellbasierte Mengenermittlung</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1102,13 +1131,13 @@
                                     </td>
                                     <td>CavCorp LTD</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1127,12 +1156,12 @@
                                     </td>
                                     <td>Sharpe Development Group Pty Ltd</td>
                                     <td>Entwurf des Strandhauses</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Machbarkeitsstudie</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC188_Modellbasierte Machbarkeitsstudie</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1151,13 +1180,13 @@
                                     </td>
                                     <td>Gambaro</td>
                                     <td>Umbau des Restaurants und Erweiterung der Hotelabteilung</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1176,18 +1205,18 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Entwurf des MFH Neubaus</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)
-                                        <br>Modellbasierte Raumlisten
-                                        <br>Modellbasierte Mengenermittlung</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC220_Modellbasierte Raumlisten
+                                        <br>UC118_Modellbasierte Mengenermittlung</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1206,16 +1235,16 @@
                                     </td>
                                     <td>Tom Dooley Developments</td>
                                     <td>Neubau EFH am Flussufer</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)</td>
                                     <td>Architekt</td>
                                     <td>Archicad, Artlantis</td>
                                     <td><a target="_blank"
@@ -1231,16 +1260,16 @@
                                     </td>
                                     <td>Plazibatt</td>
                                     <td>Neubau EFH</td>
-                                    <td>Schattenvisualisierung
-                                        <br>Digitales Architekturmodell
-                                        <br>Situationsmodell/Umgebungsplan
-                                        <br>Modellbasierte Baueingabepläne
-                                        <br>Modellbasierte Ausführungspläne
-                                        <br>BIM Projektkoordination (Little BIM/intern)
-                                        <br>Kollisionskontrollen
-                                        <br>Modellbasierte Flächenermittlung
-                                        <br>Visualisierung für Aussicht
-                                        <br>Visualisierung passiv (Bild/Video)</td>
+                                    <td>UC264_Schattenvisualisierung
+                                        <br>UC284_Digitales Architekturmodell
+                                        <br>UC257_Situationsmodell/Umgebungsplan
+                                        <br>UC141_Modellbasierte Baueingabepläne
+                                        <br>UC143_Modellbasierte Ausführungspläne (SIA 400)
+                                        <br>UC128_BIM Projektkoordination (Little BIM/intern)
+                                        <br>UC280_Kollisionskontrollen
+                                        <br>UC219_Modellbasierte Flächenermittlung
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC226_Visualisierung passiv (Bild/Video)</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1259,13 +1288,13 @@
                                     </td>
                                     <td>-</td>
                                     <td>Sunshade study for the entry extension</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Schattenvisualisierung
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Tageslichtberechnung
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Modellbasiertes Vorprojekt</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC264_Schattenvisualisierung
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC160_Tageslichtberechnung
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC283_Modellbasiertes Vorprojekt</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1284,16 +1313,16 @@
                                     </td>
                                     <td>Buranda Developments Pty Ltd</td>
                                     <td>Multiresidential Development</td>
-                                    <td>Visualisierung passiv (Bild/Video)
-                                        <br>Schattenvisualisierung
-                                        <br>Visualisierung des Vergleichs
-                                        <br>Visualisierung für Aussicht
-                                        <br>Tageslichtberechnung
-                                        <br>Stadtmodell
-                                        <br>Digitale Entwurfsmodelle
-                                        <br>Gipsmodellunterlagen (3D Druck)
-                                        <br>Modellbasiertes Vorprojekt
-                                        <br>Modellbasierte Baueingabepläne</td>
+                                    <td>UC226_Visualisierung passiv (Bild/Video)
+                                        <br>UC264_Schattenvisualisierung
+                                        <br>UC267_Visualisierung des Vergleichs
+                                        <br>UC232_Visualisierung für Aussicht
+                                        <br>UC160_Tageslichtberechnung
+                                        <br>UC265_Stadtmodell
+                                        <br>UC137_Digitale Entwurfsmodelle
+                                        <br>UC258_Gipsmodellunterlagen (3D Druck)
+                                        <br>UC283_Modellbasiertes Vorprojekt
+                                        <br>UC141_Modellbasierte Baueingabepläne</td>
                                     <td>
                                         Architekt
                                         Assistant
@@ -1321,6 +1350,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a4deaa26c1.js"></script>
 </body>
 
