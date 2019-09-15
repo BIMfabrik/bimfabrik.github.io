@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - bimfabrik</title>
+    <link rel="stylesheet" href="~/dist/index.css" />
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3 inner cover">
+            @RenderBody()
+        </main>
+    </div>
+
+    <partial name="_Footer" />
+    <script src="~/dist/main.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
