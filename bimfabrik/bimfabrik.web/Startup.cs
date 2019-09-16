@@ -51,7 +51,7 @@ namespace bimfabrik
                 options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             }).AddCookie(options => {
-                options.LoginPath = "/auth/signin";
+                options.LoginPath = new PathString("/Authentication/auth/signin");
             });
 
             services.AddHttpClient();

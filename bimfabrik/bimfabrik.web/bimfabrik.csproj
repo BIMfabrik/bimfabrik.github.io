@@ -16,4 +16,8 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\bimfabrik.model\bimfabrik.model.csproj" />
+  </ItemGroup>
+
 </Project>
