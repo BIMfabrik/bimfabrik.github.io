@@ -1,11 +1,18 @@
-﻿using bimfabrik.api.Helpers;
+﻿using AutoMapper;
 using bimfabrik.api.Services;
-using Microsoft.AspNetCore.Authentication;
+using bimfabrik.model.DataAccess;
+using bimfabrik.model.Helpers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace bimfabrik.api
 {
@@ -21,11 +28,15 @@ namespace bimfabrik.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+            services.AddDbContext<BimfabrikContext>(x => x.UseMySql("Server=den1.mysql2.gear.host;Database=bimfabrik;Uid=bimfabrik;Pwd=Zd4mK~QY5!N5;", b => b.MigrationsAssembly("bimfabrik.api")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // configure basic authentication 
-            services.AddAuthentication("BasicAuthentication")
-                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            });
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();

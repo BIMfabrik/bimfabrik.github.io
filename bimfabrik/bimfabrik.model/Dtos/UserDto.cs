@@ -1,7 +1,10 @@
-﻿
-namespace bimfabrik.api.Model
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace bimfabrik.model.Dtos
 {
-    public class User
+    public class UserDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

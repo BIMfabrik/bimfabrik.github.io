@@ -1,23 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.SpaServices.Webpack;
-using System.IO;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
-using System.Text;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Server.IISIntegration;
-using Microsoft.AspNetCore.Http.Features;
-using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace bimfabrik
 {
@@ -50,8 +37,10 @@ namespace bimfabrik
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-            }).AddCookie(options => {
-                options.LoginPath = new PathString("/Authentication/auth/signin");
+            }).AddCookie(options =>
+            {
+                options.LoginPath = new PathString("/Authentication/Auth/SignIn");
+                options.LogoutPath = new PathString("/Authentication/Auth/SignOut");
             });
 
             services.AddHttpClient();

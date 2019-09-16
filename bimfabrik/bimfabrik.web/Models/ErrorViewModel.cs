@@ -1,5 +1,3 @@
-using System;
-
 namespace bimfabrik.Models
 {
     public class ErrorViewModel

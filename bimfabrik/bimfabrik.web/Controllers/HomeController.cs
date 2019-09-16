@@ -3,23 +3,20 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Net.Http;
 
 namespace bimfabrik.Controllers
 {
     public class HomeController : Controller
     {
         private readonly IHostingEnvironment _hostingEnvironment;
-        private readonly IHttpClientFactory _clientFactory;
 
-        public HomeController(IHostingEnvironment hostingEnvironment, IHttpClientFactory clientFactory)
+        public HomeController(IHostingEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
-            _clientFactory = clientFactory;
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        [Authorize]
         public IActionResult Index()
         {
             return View();
