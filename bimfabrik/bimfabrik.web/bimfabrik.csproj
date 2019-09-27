@@ -30,6 +30,8 @@
   <ItemGroup>
     <Folder Include="Areas\Authentication\Data\" />
     <Folder Include="Areas\Authentication\Models\" />
+    <Folder Include="Areas\Usecase\Data\" />
+    <Folder Include="Areas\Usecase\Models\" />
     <Folder Include="Data\" />
   </ItemGroup>
 

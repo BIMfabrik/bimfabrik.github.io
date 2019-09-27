@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "UseCases";
+    ViewData["CurrentPage"] = "BIM Anwendungsfälle";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.Hidden("GetUseCasesUrl", Url.Action("GetUsecaseJson"))
+        <table id="table" class="table table-striped table-condensed table-hover">
+            <thead>
+                <tr>
+                    <th data-field="state" data-checkbox="true">Status</th>
+                    <th data-field="Code" data-sortable="true">Code</th>
+                    <th data-field="Name" data-filter-control="input">Name</th>
+                    <th data-field="Klient" data-filter-control="select">Klient</th>
+                    <th data-field="Grad" data-filter-control="select">Grad</th>
+                    <th data-field="Thema" data-filter-control="select">Thema</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+@section scripts {
+    <script src="~/dist/Usecase.js" asp-append-version="true"></script>
+}

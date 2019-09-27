@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using bimfabrik.api.Services;
 using bimfabrik.model.DataAccess;
-using bimfabrik.model.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,10 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace bimfabrik.api
 {
@@ -29,7 +25,7 @@ namespace bimfabrik.api
         {
             services.AddCors();
             services.AddDbContext<BimfabrikContext>(x => x.UseMySql("Server=den1.mysql2.gear.host;Database=bimfabrik;Uid=bimfabrik;Pwd=Zd4mK~QY5!N5;", b => b.MigrationsAssembly("bimfabrik.api")));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddAuthentication(x =>
